@@ -1,0 +1,6 @@
+GitHub repository: https://github.com/Dennzy88/online_sales_analysis
+
+Summary:
+- Implemented Product, ProductManager, and Cart classes using OOP in Python
+- Managed version control with Git: branching, merging, and conflict resolution
+- Documented project with README.md and secured sensitive data with .gitignore
