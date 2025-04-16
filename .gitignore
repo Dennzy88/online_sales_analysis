@@ -172,3 +172,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project-specific ignore rules
+config.json
+
+# Ignore screenshots used for task steps
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
