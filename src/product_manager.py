@@ -1,7 +1,7 @@
-# 2.Kreirati Python datoteku product_manager.py i implementirati sledeće zahteve.
+# 2.Kreirati Python datoteku product_manager.py i implementirati sledece zahteve.
 
 # Klasa ProductManager
-# Sadrži kao atribut listu svih dostupnih proizvoda.
+# Sadrzi kao atribut listu svih dostupnih proizvoda.
 # Dodavanje proizvoda.
 # Prikaz svih proizvoda.
 # Prikaz ukupne vrednosti svih proizvoda.

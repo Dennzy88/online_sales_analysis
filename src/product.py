@@ -1,11 +1,11 @@
 # Faza 2: Analiza podataka – Python funkcionalnosti
 
-# 1.Kreirati Python datoteku product.py i implementirati sledeće zahteve.
+# 1.Kreirati Python datoteku product.py i implementirati sledece zahteve.
 
 # Klasa Product
-# Sadrži atribute: name, price i quantity.
+# Sadrzi atribute: name, price i quantity.
 # Metod za prikaz informacija o proizvodu.
-# Metod za ažuriranje količine proizvoda.
+# Metod za azuriranje kolicine proizvoda.
 
 class Product:
     def __init__(self, name, price, quantity):
