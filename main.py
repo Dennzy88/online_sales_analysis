@@ -41,6 +41,9 @@ for product in manager.products:
     if product.name == "Laptop" or product.name == "Mouse":
         cart.add_to_cart(product)
 
+# Dodajmo jos jedan proizvod u korpu (simulacija nove funkcionalnosti)
+cart.add_to_cart(Product("Keyboard", 59.99, 1))
+
 
 
 print("\nYour Shopping Cart:")
