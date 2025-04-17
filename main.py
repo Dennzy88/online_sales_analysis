@@ -23,12 +23,24 @@ manager.display_all_products()
 
 manager.total_inventory_value()
 
+# Brisanje jednog proizvoda
+print("\nRemoving 'Headphones' from inventory:")
+manager.remove_product_by_name("Headphones")
+
+# Prikaz proizvoda nakon uklanjanja
+print("\nUpdated Product List:")
+manager.display_all_products()
+
+
 
 cart = Cart()
 
 
-cart.add_to_cart(manager.products[0])  # Laptop
-cart.add_to_cart(manager.products[2])  # Mouse
+# Pronađi proizvode po imenu
+for product in manager.products:
+    if product.name == "Laptop" or product.name == "Mouse":
+        cart.add_to_cart(product)
+
 
 
 print("\nYour Shopping Cart:")
